@@ -1,5 +1,5 @@
 //
-//  SearchResponse.swift
+//  SerachResponse.swift
 //  GithubAPIClient
 //
 //  Created by k-satoshi on 2017/02/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct SearchResponse<Item : JSONDecodable> : JSONDecodable {
+struct SerachResponse<Item : JSONDecodable> : JSONDecodable {
     let totalCount: Int
     let items: [Item]
     
